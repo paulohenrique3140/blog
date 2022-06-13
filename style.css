@@ -90,10 +90,38 @@ div.primeiraClass img {
   box-shadow: 1px 1px 0.5px 0.5px lightgray;
 }
 
-img#linhaUm:hover {
-  width: 100.1%;
+img.linhaUm:hover {
+  width: 96%;
   box-shadow: 2px 2px 1.5px 1.5px;
   transition: 300ms;
+}
+
+div.rolagem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes taadaa { 
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.anime {
+  animation: taadaa 2s 1;
+}
+
+div.bolinha {
+  margin:20px 5px;
+  width: 10px;
+  height: 10px;
+  border: 1px solid gray;
+  border-radius: 50%;
 }
 
 div.primeiraClass p {
@@ -199,14 +227,23 @@ footer a:hover {
   -webkit-text-fill-color: transparent;
 }
 
- ul#foot img:hover {
-  width:  100.05%;
+img.redeSocial:hover {
+  width: 80%;
   transition: 300ms;
+}
+
+ul#foot {
+  padding-top: 10px;
+}
+
+ul#foot:hover {
+  background: linear-gradient(lightgray, white);
+  border-radius: 10px;
 }
 
 @media only screen and (max-width: 1700px) {
   
-  img#linhaUm {
+  img.linhaUm {
     width:95%;
   }
 }
@@ -233,11 +270,11 @@ footer a:hover {
     width: 100%;
   }
 
-  img#linhaUm {
+  img.linhaUm {
     width: 60%;
   }
 
-  img#linhaUm:hover {
+  img.linhaUm:hover {
     width: 60.1%;
     box-shadow: 1px 1px 0.5px 0.5px lightgray;
   }
@@ -274,6 +311,11 @@ footer a:hover {
 
   img#logo {
     width: 60%;
+  }
+
+  div.bolinha {
+    width: 7px;
+    height: 7px;
   }
 
   div#paragrafo p {
