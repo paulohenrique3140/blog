@@ -144,6 +144,7 @@ div#arrow {
   animation: bounce 1s infinite alternate;
   -webkit-animation: bounce 1s infinite alternate;
 }
+
 @keyframes bounce {
   from {
     transform: translateY(0px);
@@ -198,6 +199,10 @@ figcaption {
   text-align: center;
 }
 
+figcaption a {
+  text-decoration: none;
+}
+
 footer {
   display: flex;
   justify-content: center;
@@ -217,6 +222,10 @@ div#about li:first-child {
 footer a {
   text-decoration: none;
   padding: 8px;
+}
+
+footer ul {
+  font-size: 20px;
 }
 
 footer a:hover {
