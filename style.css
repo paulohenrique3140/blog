@@ -48,7 +48,7 @@ header nav a:hover {
 
 img#logo:hover {
   border-radius: 60px;
-  background: linear-gradient(#eee, rgb(73, 73, 73));
+  background: linear-gradient(#eee, rgb(202, 202, 202));
   transition: 650ms;
   width: 101px;
 }
@@ -320,11 +320,6 @@ ul#foot:hover {
 
   img#logo {
     width: 60%;
-  }
-
-  div.bolinha {
-    width: 7px;
-    height: 7px;
   }
 
   div#paragrafo p {
