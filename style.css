@@ -303,9 +303,6 @@ ul#foot:hover {
     font-size: 18px;
   }
 
-  img.redeSocial {
-    width: 60%;
-  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -337,14 +334,6 @@ ul#foot:hover {
 
   footer ul {
     font-size: 15px;
-  }
-  
-  footer img {
-    width: 60%;
-  }
-
-  img.redeSocial {
-    width: 40%;
   }
 
 }
@@ -380,8 +369,8 @@ ul#foot:hover {
     width: 50%;
   }
 
-  footer ul {
-    display: block;
+  img.redeSocial {
+    width: 60%;
   }
   
   div#about li:first-child {
