@@ -29,7 +29,7 @@ function futebolOut1() {
 function futebolEnter2() {
   var animacao = document.getElementById('futebol');
   animacao.classList.toggle('anime');
-  imgFutebol.src = 'midia/corinthians.png';
+  imgFutebol.src = 'midia/futebol2.png';
   botao2Futebol.style.background = 'rebeccapurple';
   botao2Futebol.style.transition = '1000ms';
   figFutebol.innerHTML = '<em>Corinthians Campeão Mundial 2012</em>'
