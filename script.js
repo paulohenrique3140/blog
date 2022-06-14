@@ -16,7 +16,7 @@ var figFutebol = document.getElementById('futebolFig');
 function futebolEnter1() {
   var animacao = document.getElementById('futebol');
   animacao.classList.toggle('anime');
-  imgFutebol.src = 'midia/futebol1.png'  
+  imgFutebol.src = 'midia/futebol1.png';  
   botao1Futebol.style.background = 'rebeccapurple';
   botao1Futebol.style.transition = '1000ms';
   figFutebol.innerHTML = '<em>Neo Química Arena</em>';
@@ -32,7 +32,7 @@ function futebolEnter2() {
   imgFutebol.src = 'midia/futebol2.png';
   botao2Futebol.style.background = 'rebeccapurple';
   botao2Futebol.style.transition = '1000ms';
-  figFutebol.innerHTML = '<em>Corinthians Campeão Mundial 2012</em>'
+  figFutebol.innerHTML = '<em>Corinthians Campeão Mundial 2012</em>';
 }
 
 function futebolOut2() {
