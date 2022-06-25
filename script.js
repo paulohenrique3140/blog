@@ -29,10 +29,10 @@ function futebolOut1() {
 function futebolEnter2() {
   var animacao = document.getElementById('futebol');
   animacao.classList.toggle('anime');
-  imgFutebol.src = 'midia/futebol3.png';
+  imgFutebol.src = 'midia/futebol2.png';
   botao2Futebol.style.background = 'rebeccapurple';
   botao2Futebol.style.transition = '1000ms';
-  figFutebol.innerHTML = '<em>São Paulo Campeão Mundial 2004</em>';
+  figFutebol.innerHTML = '<em>Corinthians Campeão Mundial 2012</em>';
 }
 
 function futebolOut2() {
@@ -42,10 +42,10 @@ function futebolOut2() {
 function futebolEnter3() {
   var animacao = document.getElementById('futebol');
   animacao.classList.toggle('anime');
-  imgFutebol.src = 'midia/futebol2.png';
+  imgFutebol.src = 'midia/futebol3.png';
   botao3Futebol.style.background = 'rebeccapurple';
   botao3Futebol.style.transition = '1000ms';
-  figFutebol.innerHTML = '<em>Corinthians Campeão Mundial 2012</em>';
+  figFutebol.innerHTML = '<em>São Paulo Campeão Mundial 2004</em>';
 }
 
 function futebolOut3() {

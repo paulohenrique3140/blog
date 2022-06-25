@@ -1,0 +1,357 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Mukta', sans-serif;
+}
+
+body {
+  font-size: 20px;
+  /*background: linear-gradient(to bottom, rgb(247, 247, 247), lightgray, white);*/
+}
+
+main {
+  padding: 40px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: 1px 1px 10px 1px #494949;
+  background-color: rgb(247, 247, 247);
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+header nav a {
+  text-decoration: none;
+  padding: 8px;
+  color:rgb(73, 73, 73);
+  font-family: 'Anton', sans-serif;
+  font-weight: 600;
+}
+
+header nav a:hover {
+  font-size: 1.05em;
+  transition: 300ms;
+  background: -webkit-linear-gradient(#eee, rgb(73, 73, 73));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+img#logo:hover {
+  border-radius: 60px;
+  background: linear-gradient(#eee, rgb(202, 202, 202));
+  transition: 650ms;
+  width: 101px;
+}
+
+#fut {
+  font-weight: 900;
+}
+
+section {
+  padding: 10px;
+  margin: 10px 0 0 0;
+}
+
+div p, h2, audio {
+  margin: 20px 0;
+}
+
+section#corinthians {
+  background: linear-gradient(white, rgb(109, 109, 109), white);
+}
+
+section#palmeiras {
+  background: linear-gradient(white, rgb(102, 209, 102), white);
+}
+
+section#saoPaulo {
+  background: linear-gradient(white, rgb(255, 143, 143), white);
+}
+
+section#santos {
+  background: linear-gradient(white, rgb(109, 109, 109), white);
+}
+
+div.time {
+  display: flex;
+  justify-content: space-around;
+}
+
+#primeiraId, #segundaId, #terceiraId {
+  margin: 50px 0;
+  padding: 30px;
+}
+
+div#primeiraId {
+  align-items: center;
+  text-align: justify;
+}
+
+div.img {
+width: 30%;
+justify-content: center;
+display: flex;
+
+}
+
+div.text {
+width: 70%;
+}
+
+img.imgSection, iframe {
+  border-radius: 20px;
+  box-shadow: 2px 2px 1px 1px rgb(73, 73, 73);
+}
+
+div#segundaId {
+  align-items: baseline;
+  text-align: center;
+}
+
+div.segundaClass {
+  display: block;
+  text-align: center;
+  width: 45%;
+  
+}
+
+div#arrow {
+  text-align: center;
+  animation: bounce 1s infinite alternate;
+  -webkit-animation: bounce 1s infinite alternate;
+  margin-top:20px;
+}
+
+@keyframes bounce {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-15px);
+  }
+}
+@-webkit-keyframes bounce {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-15px);
+  }
+}
+
+img.giraSeta {
+  transition: 700ms;
+}
+
+img.giraSeta:hover {
+  cursor: grabbing;
+  cursor: -webkit-grabbing;
+  cursor: -moz-grabbing;
+}
+
+.rotate {
+  transform: rotate(180deg);
+  transition: 300ms;
+}
+
+.active {
+  display: block !important;
+}
+
+div#terceiraId {
+  text-align: center;
+  margin: 40px 0;
+  border-top: 2px double rgb(97, 97, 97);
+}
+
+div#terceiraId h1, p#strong {
+  color: rgb(32, 32, 32);
+}
+
+div.textoVideo {
+  text-align: left;
+  margin: 5% 0 0 10%;
+}
+
+audio {
+  border: 1px solid gray;
+  box-shadow: 2px 2px 1px 1px rgb(73, 73, 73);
+  border-radius: 30px;
+}
+
+div.letra {
+  font-style: italic; 
+  text-align: left; 
+  margin-left: 30%;
+}
+
+footer {
+  box-shadow: 1px 1px 10px 1px #494949;
+  padding: 10px;
+}
+
+table {
+  margin: 0 auto;
+  text-align: center;
+}
+
+th.titulo {
+  width: 250px;
+}
+
+th#ranking {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  width:100px;
+}
+
+#brasileirao, #libertadores, #copaDoBrasil, #lateral, #mundial  {
+  background: linear-gradient(90deg, #bdc3c7, #2c3e50);
+}
+
+img#table {
+  margin: 10px 0;
+}
+
+#link-topo {
+  text-decoration: none;
+  color: white;
+  background: linear-gradient(90deg, #bdc3c7, #2c3e50);
+  padding: 7px;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  box-shadow: 3px 3px 10px #333;
+}
+
+@media only screen and (max-width: 1300px) {
+  
+  img.imgSection, img.escudo  {
+    width: 80%;
+  }
+
+  iframe {
+    width: 80%;
+    height: 30%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  
+  body {
+    font-size: 18px;
+  }
+
+  body div {
+    margin: 0 auto;
+  }
+
+  nav {
+    justify-content: center;
+  }
+
+  img#logo {
+    width: 80%;
+  }
+
+  header ul {
+    font-size: 20px;
+  }
+
+  div.time {
+    display: block;
+  }
+
+  div.segundaClass {
+    width: 100%;
+  } 
+
+  iframe {
+    width: 450px;
+    height: 254px;
+  }
+
+  footer {
+    font-size: 15px;
+  }
+
+  #link-topo {
+    padding: 5px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    font-size:15px;
+  }
+  
+  header ul {
+    font-size: 17px;
+    margin: 10px 0;
+  }
+
+  img#logo {
+    width: 60%;
+  }
+
+  iframe {
+    width: 380px;
+    height: 214px;
+  }
+
+  audio {
+    width: 50%;
+    height: 35px;
+  }
+
+  footer {
+    font-size: 12px;
+  }
+
+  #link-topo {
+    padding: 3px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  
+  nav {
+    display: block;
+    text-align: center;
+  }
+
+  img#logo {
+    width: 17%;
+  }
+
+  header ul {
+    margin: 10px 0;
+  }
+
+  header nav a {
+    text-decoration: none;
+    padding: 4px;
+  }
+
+  iframe {
+    width: 80%;
+  }
+
+  footer {
+    font-size: 10px;
+  }
+
+  #link-topo {
+    padding: 1px;
+  }
+}
