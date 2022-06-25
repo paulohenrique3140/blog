@@ -270,10 +270,6 @@ ul#foot:hover {
     font-size: 18px;
   }
 
-  body div {
-    border: 1px solid black;
-  }
-
   img#logo {
     width: 80%;
   }
