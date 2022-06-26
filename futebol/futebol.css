@@ -212,15 +212,27 @@ th.titulo {
 th#ranking {
   writing-mode: vertical-rl;
   text-orientation: upright;
-  width:100px;
+  width:60px;
 }
 
-#brasileirao, #libertadores, #copaDoBrasil, #lateral, #mundial  {
-  background: linear-gradient(90deg, #bdc3c7, #2c3e50);
+#lateral {
+  background: linear-gradient(90deg, lightblue, white);
 }
 
-img#table {
-  margin: 10px 0;
+#brasileirao {
+  background: linear-gradient(90deg, lightgreen, white);
+}
+
+#copaDoBrasil {
+  background: linear-gradient(90deg, rgb(255, 235, 121), white);
+}
+
+#libertadores {
+  background: linear-gradient(90deg, lightblue, white);
+}
+
+#mundial {
+  background: linear-gradient(90deg, lightgray, white);
 }
 
 #link-topo {
@@ -341,6 +353,7 @@ img#table {
   header nav a {
     text-decoration: none;
     padding: 4px;
+    font-size: 13px;
   }
 
   iframe {
@@ -353,5 +366,23 @@ img#table {
 
   #link-topo {
     padding: 1px;
+  }
+
+  #primeiraId, #segundaId, #terceiraId {
+    padding: 0;
+  }
+
+  div.letra {
+    text-align: justify;
+    margin-left: 10%;
+  }
+  
+  th#ranking {
+    width:20px;
+  }
+
+  footer {
+    margin: 0;
+    padding: 0;
   }
 }

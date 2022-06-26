@@ -74,12 +74,14 @@ div.primeiraClass {
 
 div.primeiraClass a {
   text-decoration: none;
-  color: #5b5847;  
+  color: #5b5847;
+  font-size: 25px; 
+   
 }
 
 div.primeiraClass a:hover {
-  font-size: 1.1em;
-  transition: 300ms;
+  font-size: 0.9em;
+  transition: 400ms;
   background: -webkit-linear-gradient(#eee, rgb(73, 73, 73));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -243,6 +245,10 @@ footer a:hover {
   -webkit-text-fill-color: transparent;
 }
 
+a.sobreContato {
+  color: rebeccapurple;
+}
+
 img.redeSocial:hover {
   width: 80%;
   transition: 300ms;
@@ -309,7 +315,6 @@ ul#foot:hover {
   footer ul {
     font-size: 18px;
   }
-
 }
 
 @media only screen and (max-width: 600px) {
